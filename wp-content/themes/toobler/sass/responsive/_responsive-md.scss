@@ -1,0 +1,93 @@
+@media (min-width: $screen-md-min) {
+body{
+   // border:solid 5px yellow;
+} 
+    
+//Header 
+.main-navigation li{
+    margin-left:38px;
+}  
+    
+//Banner
+.main-banner{
+    .owl-stage-outer{
+        height:auto;
+    }  
+    .owl-carousel .owl-item img{
+        width:100%;
+        max-width:100%;
+    } 
+    .lgx-carousel-section .lgx-carousel .lgx-item .banner-content{
+        padding-top:12%;  
+    }
+    .lgx-carousel-section .lgx-carousel .lgx-item .banner-content h1{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .lgx-carousel-section .lgx-carousel .lgx-item .banner-content p{
+        font-size:16px;
+    }
+}  
+    
+//Portfolio    
+.portfolio-home{
+    padding: 90px 0;
+}
+.portfolio-home .grid-content{
+    h3{
+        font-size: 26px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .secondary-btn-outline{
+        font-size: 11px;
+    }
+}
+
+    
+//What we do
+.what-we-do .service-block .project-content{
+    min-height:135px;
+    padding-bottom:30px;
+}
+    
+    
+//Case study
+.home-case-study {
+	padding: 60px 0;
+    h5{
+        padding:40px 0 0 0;
+    }
+    h3{
+        padding:30px 0 20px 0;
+    }
+}
+.home-case-study .case-screen{
+    width:80%;
+    margin-top:40px;
+}   
+ 
+//Inspired
+.inspired-section{
+    .inspired-sub{
+        width:100%;
+        float:left;
+        margin-top:0;
+    }
+    .inspired-sub + .inspired-sub{
+        margin-top:7%;
+        margin-left:0;
+    } 
+    .sub-details h3{
+        font-size:18px;
+        line-height:24px;
+    }
+}
+     
+    
+    
+    
+//end
+}
+

@@ -1,0 +1,26 @@
+$body = file_get_contents(locate_template("templates/emails/starter.html"));
+				$mail_body = RecruitemeUtils::formatEmail($body,$params);
+
+
+/* format email*/
+	public function formatEmail($body="", $params){
+		if($body == "")
+			return;
+
+		if(!empty($params['displayname']))
+			$body = str_replace("{{displayname}}", $params['displayname'], $body);
+		else
+			$body = str_replace("{{displayname}}", "Hi there,", $body);
+
+		if(!empty($params['profile_link']))
+			$body = str_replace("{{profile_link}}", $params['profile_link'], $body);
+		else
+			$body = str_replace("{{profile_link}}", "javascript:;", $body);
+
+		if(!empty($params['upgrade_link']))
+			$body = str_replace("{{upgrade_link}}", $params['upgrade_link'], $body);
+		else
+			$body = str_replace("{{upgrade_link}}", "javascript:;", $body);
+
+		return $body;
+	}

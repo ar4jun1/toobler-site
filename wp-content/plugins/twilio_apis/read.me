@@ -1,0 +1,28 @@
+1)To sent an OTP:
+----------------
+   URL        :  http://ridebrand.toobler.com/wp-admin/admin-ajax.php
+   Method     :  POST
+   Parms      :  action  =	send_otp,  phone_number (with country code)
+
+   Response:{
+            "status": true,
+            "return": {
+                      "phone_number": "+18004210346",
+                      "OTP": "9164"
+                    }
+            }
+         
+
+2)Verify an OTP:
+---------------
+    URL       :  http://ridebrand.toobler.com/wp-admin/admin-ajax.php
+    Method    :  POST
+    Parms     :  action  = verify_otp, phone_number (with country code) and otp
+
+   Response:{
+             "status": true,
+             "return": {
+                           "userId": "3",
+                           "phone_number": "+18004210346"
+                       }
+            }

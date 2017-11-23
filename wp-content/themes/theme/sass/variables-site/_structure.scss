@@ -1,0 +1,19 @@
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+
+$size__grid-columns: 12 !default;
+$size__grid-gutter: 30px !default;
+$size__grid-gutter-md: 16px !default;
+$size__grid-gutter-sm: 10px !default;
+
+$size__screen-xs: 480px !default;
+$size__screen-sm: 768px !default;
+$size__screen-md: 992px !default;
+$size__screen-lg: 1200px !default;
+
+//Tablet screen
+$size__layout-sm: (720px + $size__grid-gutter) !default;
+//Medium screen 
+$size__layout-md: (940px + $size__grid-gutter) !default;
+//Large screen 
+$size__layout-lg: (1170px + $size__grid-gutter) !default;

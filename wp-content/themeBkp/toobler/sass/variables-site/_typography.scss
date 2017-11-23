@@ -1,0 +1,29 @@
+$font__main: sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+//== All fonts 
+$Droid-Sans                        : 'Droid Serif', serif;
+$Conv-CircularStd-Book             : 'Conv_CircularStd-Book';
+$Conv-CircularStd-Medium           : 'Conv_CircularStd-Medium';
+$Conv-CircularStd-Bold             : 'Conv_CircularStd-Bold';
+$Conv-CircularStd-Black            : 'Conv_CircularStd-Black';
+
+
+
+/*
+
+=== Initiating fonts to variables ===
+
+*/
+
+$primary-font                      : $Conv-CircularStd-Book; 
+$secondary-font                    : $Conv-CircularStd-Medium; 
+$paragraph                         : $Droid-Sans;
+$title-font                        : $Conv-CircularStd-Bold; 
+$sub-title-font                    : $Conv-CircularStd-Black; 
+    
+    
+  
